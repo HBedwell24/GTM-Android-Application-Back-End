@@ -12,8 +12,8 @@ In order to run the application successfully from a user's desktop, one will nee
 
 The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
 
-### 1.1 Starting Up XAMPP
-Once the installation setup has concluded, one can access XAMPP by finding it through the search bar feature specific to the OS at hand, or by simply locating the application file within your machine's File Explorer. Clicking the icon of the application will bring up a list of modules, with Apache and MySQL being the primary areas of concern. 
+### 1.1 Starting Up XAMPP/WAMP
+Once the installation setup has concluded, one can access XAMPP/WAMP by finding it through the search bar feature specific to the OS at hand, or by simply locating the application file within your machine's File Explorer. Clicking the icon of the application will bring up a list of modules (or a prompt asking to run an exeutable if you are using WAMP, to which you would respond 'Yes'), with Apache and MySQL being the primary areas of concern. 
 
 Be sure to start both of these services, and then proceed to open up a window in the Internet browser of your choice. Type in 'localhost/phpmyadmin' in the address bar, and then log in if applicable (with root as your username, and a blank string as your password, provided that you have not changed the default password). If done correctly, you will now have access to the PHPMyAdmin dashboard, which is what will be used in the next steps to create the much needed database tables.
 
