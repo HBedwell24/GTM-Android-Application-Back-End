@@ -5,6 +5,7 @@ The PHP files fundamental to ensuring that data was successfully transmitted to 
 In order to run the application successfully from a user's desktop, one will need to have posession of an Apache distribution such as XAMPP or WAMP, which allows for a local web server to be ran on the host computer's localhost domain. A safe way to download these software bundles can be found as follows:
 
 XAMPP: https://sourceforge.net/projects/xampp/
+
 WAMP: https://sourceforge.net/projects/wampserver/
 
 The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
