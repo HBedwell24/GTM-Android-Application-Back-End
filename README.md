@@ -11,9 +11,9 @@ In order to run the application successfully from a user's desktop, one will nee
 The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
 
 ### 1.1 Starting Up XAMPP
-Once the installation setup has concluded, one can access XAMPP by finding it through the search bar feature specific to the OS at hand, or by simply locating the application file within the machine's File Explorer. Clicking the icon of the application will bring up a list of modules, with Apache and MySQL being the primary areas of concern. 
+Once the installation setup has concluded, one can access XAMPP by finding it through the search bar feature specific to the OS at hand, or by simply locating the application file within your machine's File Explorer. Clicking the icon of the application will bring up a list of modules, with Apache and MySQL being the primary areas of concern. 
 
-Be sure to start both of these services, and then proceed to open up a window in the Internet browser of your choice. Type in 'localhost/phpmyadmin' in the address bar, and then log in if applicable (with root as your username, and a blank string as your password). If done correctly, you will now have access to the PHPMyAdmin dashboard, which is what will be used in the next steps to create the much needed database tables.
+Be sure to start both of these services, and then proceed to open up a window in the Internet browser of your choice. Type in 'localhost/phpmyadmin' in the address bar, and then log in if applicable (with root as your username, and a blank string as your password, provided that you have not changed the default password). If done correctly, you will now have access to the PHPMyAdmin dashboard, which is what will be used in the next steps to create the much needed database tables.
 
 However, to go about this, one will first have to create a database to hold the tables. To do this, click 'New' in the top part of the left-most navigation menu, and then proceed to enter in a name that you would prefer for the database to be referenced by within the PHP codebase. Keep all other settings as default, and then press 'Create'.
 
