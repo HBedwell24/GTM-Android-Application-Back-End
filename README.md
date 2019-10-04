@@ -1,12 +1,12 @@
 # GTM Android Application Back End
-The PHP files fundamental to ensuring that data was successfully transmitted to and from a remote MySQL database in order to promote a satisfactory login experience.
+The PHP files fundamental to ensuring that data is successfully transmitted to and from a remote MySQL database in order to promote a satisfactory login experience.
 
 ## 1. Running the Application Locally
 In order to run the application successfully from a user's desktop, one will need to have posession of an Apache distribution such as XAMPP or WAMP, which allows for a local web server to be ran on the host computer's localhost domain. A safe way to download these software bundles can be found as follows:
 
-XAMPP: https://sourceforge.net/projects/xampp/
+[Download XAMPP from SourceForge](https://sourceforge.net/projects/xampp/)
 
-WAMP: https://sourceforge.net/projects/wampserver/
+[Download WAMP from SourceForge](https://sourceforge.net/projects/wampserver/)
 
 The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
 
