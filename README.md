@@ -10,7 +10,7 @@ In order to run the application successfully from a user's desktop, one will nee
 
 [Download WAMP from SourceForge](https://sourceforge.net/projects/wampserver/)
 
-The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
+The installation wizard will guide you through setting the software up on your local machine, and should be a relatively trivial task.
 
 ### 1.1 Starting Up XAMPP/WAMP
 Once the installation setup has concluded, one can access XAMPP/WAMP by finding it through the search bar feature specific to the OS at hand, or by simply locating the application file within your machine's File Explorer. Depending on the Apache distribution you have chosen to download, clicking the icon of the application will have varying results. In the case you have chosen XAMPP, one would simply have to click the application, to which the user would be greeted with a list of modules in a popup window (with Apache and MySQL being the primary areas of concern). On the contrary, WAMP is handled more so like an executable, and needs to be granted permission each time it is opened. Allowing it to make changes to the computer will add a red icon to the lower taskbar, signifying that WAMP's inline services are offline, and that one needs to start them by pressing 'Start All Services'.
