@@ -6,6 +6,8 @@ In order to run the application successfully from a user's desktop, one will nee
 
 [Download XAMPP from SourceForge](https://sourceforge.net/projects/xampp/)
 
+**OR**
+
 [Download WAMP from SourceForge](https://sourceforge.net/projects/wampserver/)
 
 The installation wizard will guide you through setting the software up on your local device, and should be a relatively trivial task.
@@ -68,5 +70,8 @@ ALTER TABLE `users`
 COMMIT;
 ```
 
-Doing so will result in two tables, which will act as a baseline for verifying and receiving user data sent to and from the Android forms, as well as act as a means for facilitating inbound password reset requests.
+Doing so will result in two data schemas, which will act as a baseline for verifying and receiving user data sent to and from the Android forms, as well as act as a means for facilitating inbound password reset requests.
+
+### 1.3 Downloading the Repository
+Lastly, you will be required to download and unzip the file contents of this repository and place them on the Apache web server to be served on your local domain. To do so, click on the "Clone or Download" dropdown at the top right of the repository dashboard and then click "Download ZIP". Navigate to the location of your XAMPP/WAMP installation on your local machine and you will find a htdocs/www folder. Within the htdocs/www folder, create a sub-folder named after the database you created above. This sub-folder will be where you extract the contents of the ZIP folder so that they may be accessed accordingly.
 
