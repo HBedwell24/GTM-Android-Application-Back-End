@@ -43,3 +43,30 @@ ALTER TABLE `password_reset_request`
 COMMIT;
 ```
 
+#### Users
+```sql
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE TABLE `users` (
+  `sno` int(11) NOT NULL,
+  `unique_id` varchar(23) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `encrypted_password` varchar(256) NOT NULL,
+  `salt` varchar(10) NOT NULL,
+  `created_at` datetime DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`sno`);
+
+ALTER TABLE `users`
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+COMMIT;
+```
+
+Doing so will result in two tables, which will act as a baseline for verifying and receiving user data sent to and from the Android forms, as well as act as a means for facilitating inbound password reset requests.
+
