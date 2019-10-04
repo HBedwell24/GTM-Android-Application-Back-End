@@ -15,4 +15,6 @@ Once the installation setup has concluded, one can access XAMPP by finding it th
 
 Be sure to start both of these services, and then proceed to open up a window in the Internet browser of your choice. Type in 'localhost/phpmyadmin' in the address bar, and then log in if applicable (with root as your username, and a blank string as your password). If done correctly, you will now have access to the PHPMyAdmin dashboard, which is what will be used in the next steps to create the much needed database tables.
 
-### Creating Database Tables
+However, to go about this, one will first have to create a database to hold the tables. To do this, click 'New' in the top part of the left-most navigation menu, and then proceed to enter in a name that you would prefer for the database to be referenced by within the PHP codebase. Keep all other settings as default, and then press 'Create'.
+
+### Creating the Database Tables
